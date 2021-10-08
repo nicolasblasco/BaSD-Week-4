@@ -15,3 +15,4 @@ var concatenation = string1 + string2;
 var string1 = 'My';
 var string2 = 'app';
 var sumLength = string1.length + string2.length;
+git c

@@ -14,3 +14,6 @@ console.log(subString1);
 var string2 = "Lorem is a new app";
 var subString2 = string2.substring(string2.length-3, string2.length);
 console.log(subString2);
+
+//d
+
