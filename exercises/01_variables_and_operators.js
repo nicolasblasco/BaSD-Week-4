@@ -6,9 +6,9 @@ var sum = num1 + num2;
 
 //b
 
-var string1 = 'My';
+var string1 = 'My ';
 var string2 = 'app';
-var concatenation = string1 + string2
+var concatenation = string1 + string2;
 
 //c
 
