@@ -6,7 +6,6 @@ for(i = 0; i < array.length; i++) {
 }
 
 //b
-//Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta por cada palabra modificada.
 
 array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
 for(i = 0; i < array.length; i++) {

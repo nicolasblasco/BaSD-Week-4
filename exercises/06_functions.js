@@ -18,7 +18,6 @@ function sum2(a,b) {
 result2 = sum2(3,'a');
 console.log(result2);
 
-
 //c
 
 function validateInteger(a) {
