@@ -1,7 +1,6 @@
 //a
 
 array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
-
 for(i = 0; i < array.length; i++) {
     alert(array[i]);
 }

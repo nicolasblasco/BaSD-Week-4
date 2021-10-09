@@ -31,5 +31,6 @@ console.log('02-e: ' + firstBlankPoistion);
 
 var stringF = 'sofTwaRe DeveLoper'; 
 var index = stringF.indexOf(' ');
-var subStringF = stringF.substring(0, 1).toLocaleUpperCase() + stringF.substring(1,index).toLocaleLowerCase() + stringF.substring(index,stringF.length).toLocaleLowerCase();
+var subStringF = stringF.substring(0, 1).toLocaleUpperCase() + stringF.substring(1,index).toLocaleLowerCase() 
++ stringF.substring(index,stringF.length).toLocaleLowerCase();
 console.log('02-f: ' + subStringF);
