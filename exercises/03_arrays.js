@@ -1,4 +1,4 @@
-// Ejercicio 3: Arrays
+// Ejercicio 03: Arrays
 
 /*
 a) Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", 

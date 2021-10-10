@@ -1,4 +1,4 @@
-// Ejercicio 4: If Else
+// Ejercicio 04: If Else
 
 /*
 a) Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor o igual que 0,5 

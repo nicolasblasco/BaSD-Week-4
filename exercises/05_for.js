@@ -1,4 +1,4 @@
-// Ejericio 5: For
+// Ejericio 05: For
 
 /*
 a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript para mostrar una

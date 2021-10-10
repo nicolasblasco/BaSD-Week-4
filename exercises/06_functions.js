@@ -1,4 +1,4 @@
-// Ejercicio 6: Functions
+// Ejercicio 06: Functions
 
 /*
 a) Crear una función suma que reciba dos valores numéricos y retorne el resultado. Ejecutar la función y guardar el 

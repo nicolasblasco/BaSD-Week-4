@@ -1,4 +1,4 @@
-// Ejercicio 2: Strings
+// Ejercicio 02: Strings
 
 /*
 a) Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en mayúscula 
