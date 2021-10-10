@@ -18,7 +18,7 @@ mostrar una alerta aclarando que uno de los parámetros tiene error y retornar e
 
 function sum2(a,b) {
     if (typeof(a) !== 'number' || typeof(b) !== 'number') {
-        alert('Error: not a number!');
+        alert('06-b: Error! Not a number!');
         return NaN;
     } else {
         return a + b;
@@ -46,14 +46,14 @@ decimales mostrar un alerta con el error y retorna el número convertido a enter
 
 function sum3(a,b) {
     if (typeof(a) !== 'number' || typeof(b) !== 'number') {
-        alert('Error: not a number!');
+        alert('06-d: Error! Not a number!');
         return NaN;
     } else if (validateInteger(a) !== true) {
-        alert('Error: a is not a integer number!');
+        alert('06-d: Error! a is not a integer number!');
         a = Math.round(a); 
         return a;                                                                                                                                                                                                                                                                                            
     } else if (validateInteger(b) !== true) {
-        alert('Error: b is not a integer number!');
+        alert('06-d: Error! b is not a integer number!');
         b = Math.round(b);
         return b; 
     } else {
@@ -64,9 +64,9 @@ var w = 'a';
 var x = 4.6;
 var y = 7;
 var z = 5;
-console.log('06-d: ' + sum3(w,x));
-console.log('06-d: ' + sum3(x,y));
-console.log('06-d: ' + sum3(y,x));
+console.log('06-d: ' + sum3(w,x)); //validación NaN
+console.log('06-d: ' + sum3(x,y)); //validación integer number
+console.log('06-d: ' + sum3(y,x)); //validación integer number
 console.log('06-d: ' + sum3(y,z));
 
 /*
@@ -76,40 +76,30 @@ todo siga funcionando igual.
 
 function validateNumber (num) {
     if (typeof(num) !== 'number') {
-        alert('Error: not a number');
         return false;
     } 
 }
 
 function sum4(a,b) {
     if (validateNumber(a) == false || validateNumber(b) == false) {
-        alert('Error: not a number!');
+        alert('06-e: Error! Not a number!')
         return NaN;
-    } else {
-        return a + b;
-    }
-}
-var x = 5;
-var y = 6;
-var z = 'a';
-console.log('06-e: The sum is ' + sum4(x,y));
-console.log('06-e: The sum is ' + sum4(x,z));
-
-
-/*
-function sum4(a,b) {
-    if (validateNumber(a) == false || validateNumber(b) == false) {
-        alert('Error: not a number')
     } else if (validateInteger(a) !== true) {
-        alert('Error a');
+        alert('06-e: Error: a is not an integer number!');
         a = Math.round(a); 
         return a;
     } else if (validateInteger(b) !== true) {
-        alert('Error b');
+        alert('06-e: Error: b is not an integer number!');
         b = Math.round(b);
         return b; 
     } else {
         return a + b;
     }
 }
-*/
+var w = 'a';
+var x = 8;
+var y = 7;
+var z = 4.5;
+console.log('06-e: ' + sum4(x,w)); //validación NaN
+console.log('06-e: ' + sum4(x,z)); //validación integer number
+console.log('06-e: ' + sum4(x,y));
