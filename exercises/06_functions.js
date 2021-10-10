@@ -19,11 +19,12 @@ mostrar una alerta aclarando que uno de los parámetros tiene error y retornar e
 function sum2(a,b) {
     if (typeof(a) !== 'number' || typeof(b) !== 'number') {
         alert('Error');
+        return NaN;
     } else {
         return a + b;
     }
 }
-result2 = sum2(3,'a');
+result2 = sum2('d',5);
 console.log(result2);
 
 /*
