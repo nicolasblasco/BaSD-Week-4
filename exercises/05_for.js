@@ -5,6 +5,7 @@ a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un b
 alerta utilizando cada una de las palabras.
 */
 
+alert('05-a:');
 var array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
 for(i = 0; i < array.length; i++) {
     alert(array[i]);
@@ -15,6 +16,7 @@ b) Al array anterior convertir la primera letra de cada palabra en mayúscula y 
 modificada.
 */
 
+alert('05-b:');
 var array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
 for(i = 0; i < array.length; i++) {
     array[i] = array[i].substring(0,1).toLocaleUpperCase() + array[i].substring(1,array[i].length).toLocaleLowerCase();
@@ -31,7 +33,7 @@ var sentence = [];
 for(i = 0; i < array.length; i++) {
     sentence += array[i] + " ";
 }
-alert(sentence);
+alert('05-c: ' + sentence);
 
 /*
 d) Crear una array vacío y con un bucle for de 10 repeticiones. Llenar el array con el número de la repetición, es 
@@ -43,4 +45,4 @@ var emptyArray = [];
 for (i = 0; i < 10; i++) {
     emptyArray += i + " ";
 }
-console.log(emptyArray);
+console.log('05-d: '+ emptyArray);
