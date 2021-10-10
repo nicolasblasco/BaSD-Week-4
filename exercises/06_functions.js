@@ -8,7 +8,7 @@ resultado en una variable, mostrando el valor de dicha variable en la consola de
 function sum(a,b) {
     return a + b;
 }
-result = sum(5,9);
+var result = sum(5,9);
 console.log('06-a: The sum is ' + result);
 
 /*
@@ -24,7 +24,7 @@ function sum2(a,b) {
         return a + b;
     }
 }
-result2 = sum2('d',5);
+var result2 = sum2('d',5);
 console.log('06-b: The sum is ' + result2);
 
 /*
@@ -34,8 +34,8 @@ c) Crear una función validate integer que reciba un número como parámetro y d
 function validateInteger(a) {                                                                                                                                                                                   
     return Number.isInteger(a);
 }
-x = 45;
-y = 4.5
+var x = 45;
+var y = 4.5
 console.log('06-c: ¿is ' + x + ' an integer number? ' + validateInteger(x));
 console.log('06-c: ¿is ' + y + ' an integer number? ' + validateInteger(y));
 
@@ -60,10 +60,10 @@ function sum3(a,b) {
         return a + b;
     }
 }
-w = 'a';
-x = 4.6;
-y = 7;
-z = 5;
+var w = 'a';
+var x = 4.6;
+var y = 7;
+var z = 5;
 console.log('06-d: ' + sum3(w,x));
 console.log('06-d: ' + sum3(x,y));
 console.log('06-d: ' + sum3(y,x));

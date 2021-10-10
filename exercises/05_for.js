@@ -5,7 +5,7 @@ a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un b
 alerta utilizando cada una de las palabras.
 */
 
-array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
+var array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
 for(i = 0; i < array.length; i++) {
     alert(array[i]);
 }
@@ -15,7 +15,7 @@ b) Al array anterior convertir la primera letra de cada palabra en mayúscula y 
 modificada.
 */
 
-array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
+var array = ['Requirements', 'design', 'implementation', 'Verification', 'Maintenance'];
 for(i = 0; i < array.length; i++) {
     array[i] = array[i].substring(0,1).toLocaleUpperCase() + array[i].substring(1,array[i].length).toLocaleLowerCase();
     alert(array[i]);
@@ -27,7 +27,7 @@ bucle for para ir guardando cada palabra dentro de la variable sentence. Al fina
 cadena completa.
 */
 
-sentence = [];
+var sentence = [];
 for(i = 0; i < array.length; i++) {
     sentence += array[i] + " ";
 }
@@ -39,7 +39,7 @@ decir que al final de la ejecución del bucle for debería haber 10 elementos de
 al número 9. Mostrar por la consola del navegador el array final (utilizar console.log).
 */
 
-emptyArray = [];
+var emptyArray = [];
 for (i = 0; i < 10; i++) {
     emptyArray += i + " ";
 }
