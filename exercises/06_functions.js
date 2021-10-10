@@ -74,13 +74,29 @@ e) Convertir la validación del ejercicio 6b) en una función separada y llamarl
 todo siga funcionando igual.
 */ 
 
-function validateNumber (number) {
+function validateNumber (num) {
     if (typeof(num) !== 'number') {
         alert('Error: not a number');
         return false;
     } 
 }
 
+function sum4(a,b) {
+    if (validateNumber(a) == false || validateNumber(b) == false) {
+        alert('Error: not a number!');
+        return NaN;
+    } else {
+        return a + b;
+    }
+}
+var x = 5;
+var y = 6;
+var z = 'a';
+console.log('06-e: The sum is ' + sum4(x,y));
+console.log('06-e: The sum is ' + sum4(x,z));
+
+
+/*
 function sum4(a,b) {
     if (validateNumber(a) == false || validateNumber(b) == false) {
         alert('Error: not a number')
@@ -96,3 +112,4 @@ function sum4(a,b) {
         return a + b;
     }
 }
+*/
