@@ -24,8 +24,10 @@ function sum2(a,b) {
         return a + b;
     }
 }
-var result2 = sum2('d',5);
-console.log('06-b: The sum is ' + result2);
+x = 'd';
+y = 5;
+sum2(x,5);
+console.log('06-b: ' + x + ' is ' + sum2(x,y));
 
 /*
 c) Crear una función validate integer que reciba un número como parámetro y devuelva verdadero si es un número entero.
@@ -64,22 +66,20 @@ var w = 'a';
 var x = 4.6;
 var y = 7;
 var z = 5;
-console.log('06-d: ' + sum3(w,x)); //validación NaN
-console.log('06-d: ' + sum3(x,y)); //validación integer number
-console.log('06-d: ' + sum3(y,x)); //validación integer number
-console.log('06-d: ' + sum3(y,z));
+console.log('06-d: ' + w + ' is '+ sum3(w,x)); //validación NaN
+console.log('06-d: ' + x + ' is not an integer number. Number rounded: ' + sum3(x,y)); //validación integer number
+console.log('06-d: The sum is ' + sum3(y,z));
 
 /*
 e) Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la función suma probando que 
 todo siga funcionando igual.
 */ 
 
-function validateNumber (num) {
+function validateNumber(num) {
     if (typeof(num) !== 'number') {
         return false;
     } 
 }
-
 function sum4(a,b) {
     if (validateNumber(a) == false || validateNumber(b) == false) {
         alert('06-e: Error! Not a number!')
@@ -100,6 +100,6 @@ var w = 'a';
 var x = 8;
 var y = 7;
 var z = 4.5;
-console.log('06-e: ' + sum4(x,w)); //validación NaN
-console.log('06-e: ' + sum4(x,z)); //validación integer number
-console.log('06-e: ' + sum4(x,y));
+console.log('06-e: ' + w + ' is '+ sum4(w,x)); //validación NaN
+console.log('06-e: '+ z + ' is not an integer number. Number rounded: ' + sum4(x,z)); //validación integer number
+console.log('06-e: The sum is ' + sum4(x,y));
