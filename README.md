@@ -14,11 +14,15 @@ The main topics of the activities are were:
 - Arrays
 - If Else
 - For
-- Funtions 
+- Functions 
 
 ## Resolution 
 
 This project was created with HTML & JavaScript. 
+
+** Last week's project **
+
+To see this project, please visit https://nicolasblasco.github.io/the-bridge-news/
 
 ## Contributors
 
